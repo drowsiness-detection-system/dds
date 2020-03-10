@@ -1,7 +1,8 @@
-import cv2
+﻿import cv2
 
 font = cv2.FONT_ITALIC
 
+# TEST 
 
 def Rotate(src, degrees):
     if degrees == 90:
