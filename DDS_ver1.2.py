@@ -5,8 +5,7 @@ import numpy as np
 import tensorflow as tf
 import pygame
 from tflite_runtime.interpreter import Interpreter
-
-pygame.mixer.init()
+#얼레리꼴레리
 pygame.mixer.music.load('alarm.wav') #졸음판단시, alarm 파일 실행
 
 face_cascade_name = './haarcascades/haarcascade_frontalface_alt.xml'
